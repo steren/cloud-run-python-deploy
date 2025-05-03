@@ -27,8 +27,13 @@ export GCP_PROJECT_ID=your-project-id
 - Update `service_name`
 - Update `image_url`
 
-## Usage
+## Deploy sample container to Cloud Run
 ```bash
 python deploy_to_cloud_run.py
+```
+
+## Deploy sources to Cloud Run
+```bash
+python deploy_sources_to_cloud_run.py
 ```
 
